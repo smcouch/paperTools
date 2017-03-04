@@ -1,0 +1,77 @@
+\documentclass[twocolumn]{aastex6}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{color}
+\usepackage{microtype}
+\usepackage{float}
+%\usepackage{natbib}
+\usepackage{verbatim}
+\usepackage{wrapfig}
+\hypersetup{backref,breaklinks,colorlinks,citecolor=blue}
+\usepackage[all]{hypcap}
+%\renewcommand*{\backref}[1]{[#1]}
+
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+\newcommand{\Msun}{$M_\sun$}
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\newcommand{\lmax}{$l_{\rm max}$}
+\newcommand{\todo}[1]{{\color{red}$\blacksquare$~\textsf{[TODO: #1]}}}
+\newcommand{\fheat}{$f_\textrm{heat}$}
+\newcommand{\Sean}[1]{{\color{cyan}{#1}}}
+\newcommand{\MESA}{{\tt MESA}}
+\newcommand{\FLASH}{{\tt FLASH}}
+
+\bibliographystyle{apj}
+
+\newcommand{\subdate}{2015 March 6}
+\newcommand{\shortauth}{Couch et al.}
+\newcommand{\slugcom}{Draft version - \today}
+%\newcommand{\slugcom}{Submitted to ApJL on \subdate}
+\slugcomment{\slugcom}
+
+\lefthead{\sc \footnotesize \slugcom \hfill \shortauth}
+\righthead{\sc \footnotesize \slugcom \hfill \shortauth}
+
+
+\begin{document}
+
+\title{Super Awesome Working Title}
+
+\author{Sean M. Couch\textsuperscript{1,2,3,4}}
+
+\affil{
+  \altaffilmark{1}{Department of Physics and Astronomy, Michigan State University, East Lansing, MI 48824, USA; \href{mailto:couch@pa.msu.edu}{couch@pa.msu.edu}}\\
+  \altaffilmark{2}{Department of Computational Mathematics, Science, and Engineering, Michigan State University, East Lansing, MI 48824}\\
+  \altaffilmark{3}{National Superconducting Cyclotron Laboratory, Michigan State University, East Lansing, MI 48824, USA}\\
+  \altaffilmark{4}{Joint Institute for Nuclear Astrophysics, Michigan State University, East Lansing, MI 48824, USA}
+}
+
+\begin{abstract}
+
+Flippin sweet.
+
+\keywords{supernovae: general -- hydrodynamics -- convection -- turbulence -- nuclear reactions, nucleosynthesis, abundances -- stars: interiors -- methods: numerical -- stars: massive -- stars: evolution}
+
+\end{abstract}
+
+
+\section{Introduction}
+\label{sec:intro}
+%\setcounter{footnote}{\value{affils}}
+
+Stuff \citep{Couch:2015a}.\footnote{This is a footnote}
+
+\acknowledgements
+
+We thank people.
+SMC is supported by the National Science Foundation
+The software used in this work was in part developed by the DOE NNSA-ASC OASCR Flash Center at the University of Chicago.
+This research used computational resources at ALCF at ANL, which is supported by the Office of Science of the US Department of Energy under Contract No. DE-AC02-06CH11357, and at TACC under NSF XSEDE allocation TG-PHY100033.
+
+\bibliography{ms}
+
+\end{document}
