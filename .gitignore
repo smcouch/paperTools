@@ -1,0 +1,8 @@
+*.pyc
+*.aux
+*.bbl
+*.blg
+*.log
+*.pdf
+*.fdb_latexmk
+msNotes.bib
